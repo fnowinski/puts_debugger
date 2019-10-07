@@ -1,7 +1,7 @@
 PATH
   remote: .
   specs:
-    tc_putter (0.1.0)
+    tc_putter (0.1.1)
 
 GEM
   remote: https://rubygems.org/
