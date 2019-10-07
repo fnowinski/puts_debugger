@@ -1,5 +1,9 @@
 require "putter/version"
 
 module Putter
-  # Your code goes here...
+  def self.put(&block)
+    puts "#" * 60
+    puts yield
+    puts "#" * 60
+  end
 end

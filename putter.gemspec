@@ -10,7 +10,7 @@ Gem::Specification.new do |spec|
   spec.email         = ["frank@tunecore.com"]
 
   spec.summary       = %q{Tool to help debugging}
-  spec.homepage      = "TODO: Put your gem's website or public repo URL here."
+  spec.homepage      = "https://github.com/fnowinski/putter"
   spec.license       = "MIT"
 
   # Prevent pushing this gem to RubyGems.org. To allow pushes either set the 'allowed_push_host'
