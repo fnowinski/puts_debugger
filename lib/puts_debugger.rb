@@ -2,8 +2,13 @@ require "puts_debugger/version"
 
 module PutsDebugger
   def self.put(&block)
-    puts "#" * 60
+    puts "#" * 90
+    puts "#" * 90
+    puts "#" * 90
     puts yield
-    puts "#" * 60
+    puts caller.grep_v(/gem/)
+    puts "#" * 90
+    puts "#" * 90
+    puts "#" * 90
   end
 end
